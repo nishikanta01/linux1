@@ -1,0 +1,5 @@
+git rm --cached filename
+git config --edit
+git remote rm origin
+git checkout filename
+git checkout .

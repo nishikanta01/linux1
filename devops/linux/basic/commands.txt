@@ -1,0 +1,16 @@
+mkdir directoryname
+mkdir dir1 dir2 dir3
+cd directoryname
+cd ..
+pwd
+cat filename
+ls
+rmdir directory
+rm filename
+touch filename
+touch fname1 fname2 fname3
+touch fname{1..n}.extension
+ls -l
+ls -a
+history
+
