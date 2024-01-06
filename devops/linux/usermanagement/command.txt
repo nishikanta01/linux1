@@ -1,0 +1,13 @@
+sudo su
+useradd username
+passwd username
+su username
+deluser username
+groupadd groupname
+gpasswd groupname
+usermod -a-G groupname username 
+gpasswd -d username groupname
+groupdel groupname
+cat /etc/group
+cat /etc/passwd
+
